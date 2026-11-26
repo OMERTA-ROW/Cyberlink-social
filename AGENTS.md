@@ -1,6 +1,7 @@
 # Architecture rules
 
 - Keep the application error boundary outside all shared providers so route and provider rendering failures retain recovery controls without clearing sessions or account data.
+- Keep crash diagnostics browser-local and bounded, observe history outside React providers, and redact URL parameters, dynamic route IDs and credential-like error values before storage/export so debugging does not require shared-backend changes or account context.
 
 - All third-party account OAuth uses `connector-oauth`; legacy social OAuth functions stay disabled so they cannot bypass one-time state, PKCE, identity verification, or encrypted credential storage.
 - OAuth callbacks always return to `/auth/callback` (allowlisted origins, URL derived server-side); it separates integration, recovery and sign-in returns, and connections require a provider-verified identity before activation.

@@ -13,6 +13,7 @@
 - [x] Sniper gift ($1000) with cinematic strike + persistent crack
 
 ## Current build
+- [x] Add local crash diagnostics for page/error/navigation; 11 focused tests and desktop/mobile injected-crash, export and reload checks passed; preview build OK.
 - [x] Add application-wide render-crash recovery; verify injected failure/reload, desktop sign-in destination and mobile login refresh.
 - [ ] Reproduce the original intermittent white screen and complete remaining signed-in refresh checks; original failure unavailable locally, extended browser sweep stalled.
 - [x] Repair shared procedural backgrounds, steady Voyage sun, and optional fictional dark-matter sensors without changing flight physics or controls
