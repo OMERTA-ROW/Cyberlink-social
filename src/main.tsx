@@ -1,5 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { purgeCorruptAuthSessions } from "./lib/authSession";
+import AppErrorBoundary from "./components/AppErrorBoundary";
 import App from "./App.tsx";
 import "./index.css";
 
@@ -8,4 +9,4 @@ try { purgeCorruptAuthSessions(window.localStorage); } catch { /* storage unavai
 
 const root = document.getElementById("root");
 if (!root) throw new Error("Application root is unavailable");
-createRoot(root).render(<App />);
+createRoot(root).render(<AppErrorBoundary><App /></AppErrorBoundary>);

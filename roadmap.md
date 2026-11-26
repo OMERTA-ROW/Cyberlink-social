@@ -13,6 +13,8 @@
 - [x] Sniper gift ($1000) with cinematic strike + persistent crack
 
 ## Current build
+- [x] Add application-wide render-crash recovery; verify injected failure/reload, desktop sign-in destination and mobile login refresh.
+- [ ] Reproduce the original intermittent white screen and complete remaining signed-in refresh checks; original failure unavailable locally, extended browser sweep stalled.
 - [x] Repair shared procedural backgrounds, steady Voyage sun, and optional fictional dark-matter sensors without changing flight physics or controls
 - [x] Replace shared background and Voyage with responsive procedural depth, deterministic orbital physics, ship controls, telemetry, collisions, fallbacks, and tests
 - [x] Make shared background, Backgrounds, and Voyage still by default; refine sourced astronomy textures, loading resilience, and desktop/mobile verification
