@@ -1,3 +1,5 @@
+> **Copyright © 2026 OMERTA-ROW. All rights reserved for proprietary material, subject to existing licenses and third-party rights. Public visibility does not grant additional licensing rights.**
+
 # CyberLink Social
 
 Build me a app that is a social media called Cyber Link.
